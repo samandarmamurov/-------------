@@ -46,17 +46,53 @@
 
 // 4      3-xonalik son kiritilsa uni sozlarda ifodalovchi dastur yozing
 
-let son3 = prompt("3 xonali son kiriting");
-son3 = Number(son3);
+// let son3 = prompt("3 xonali son kiriting");
+// son3 = Number(son3);
 
-let yuzlik1 = Math.floor(son3 / 100);
-let onlik1 = Math.floor((son3 % 100) /10);
-let birlik1 = son3  %10;
+// let yuzlik1 = Math.floor(son3 / 100);
+// let onlik1 = Math.floor((son3 % 100) /10);
+// let birlik1 = son3  %10;
 
-let birliklar = ["nol", "bir", "ikki", "uch", "to'rt", "besh", "olti", "yetti", "sakkiz", "to'qqiz"];
-console.log(
-  birliklar[yuzlik1] + " yuz " +
-  birliklar[onlik1] + " o'n " +
-  birliklar[birlik1] + " "
-);
+// let birliklar = ["nol", "bir", "ikki", "uch", "to'rt", "besh", "olti", "yetti", "sakkiz", "to'qqiz"];
+// console.log(
+//   birliklar[yuzlik1] + " yuz " +
+//   birliklar[onlik1] + " o'n " +
+//   birliklar[birlik1] + " "
+// );
 
+// ==============================================================================================================================
+
+// 5      kabisa yilini aniqlovchi dastur yozing
+
+
+
+
+
+
+
+
+// ============================================================================================================================
+
+// 6            foydalanuvchi 2ta son kiritadi ulardan eng kichigini qaytaruvchi dastur yozing bunda Math dan foydalanmang  budna || && operatorlaridan foydalaning 
+
+// let a = prompt(" 1-  sonni kiriting");
+// let b = prompt("2 - sonni kiriting")
+
+// if(a < b && b > a){
+//     console.log("eng kichik son", a);
+    
+// } else if (b < a && a > b){
+//     console.log("eng kichik son", b);
+    
+// } else {
+//     console.log("2 alasiyam teng", a, b);
+    
+// }
+
+// =====================================================================================================================
+
+// 7    let const var kalit sozlarini bir birdan farqini yozib qoldiring 
+
+// var qayta elon qlib boladi 
+
+// let qayta elon qlib bolmaydi va berilgan qiymatni ozgartirib bolmaydi
