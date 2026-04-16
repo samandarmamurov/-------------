@@ -8,9 +8,9 @@
 //     console.log("toq son");
 // }
 
-// ==================================================================================================================
+// // ==================================================================================================================
 
-//2     foydalanuvchidan 3-xonalik son oling ular ichida eng kattasi qaysi honada ekanligi aniqlovchi dastur yozing va consolega chiqaring
+// //2     foydalanuvchidan 3-xonalik son oling ular ichida eng kattasi qaysi honada ekanligi aniqlovchi dastur yozing va consolega chiqaring
 // let son1 = prompt("3 xonali son kiriting");
 // son1 = Number(son1);
 
@@ -26,18 +26,37 @@
 //     console.log("eng katta raqam birlikda");
 // };
 
-// ====================================================================================================================
-// 3        sonning ishorasini aniqlovchi dastur yozing bunda console.log musbat manfiy yoki nol degan stringlar qaytarsin
-let son2 = prompt("son kiriting");
-son2 = Number(son2);
+// // ====================================================================================================================
+// // 3        sonning ishorasini aniqlovchi dastur yozing bunda console.log musbat manfiy yoki nol degan stringlar qaytarsin
+// let son2 = prompt("son kiriting");
+// son2 = Number(son2);
 
-if(son2 > 0){
-console.log("musbat");
+// if(son2 > 0){
+// console.log("musbat");
 
-} else if (son2 < 0){
-    console.log("manfiy");
+// } else if (son2 < 0){
+//     console.log("manfiy");
     
-} else{
-    console.log("nol");
+// } else{
+//     console.log("nol");
     
-}
+// }
+
+// ===========================================================================================================================
+
+// 4      3-xonalik son kiritilsa uni sozlarda ifodalovchi dastur yozing
+
+let son3 = prompt("3 xonali son kiriting");
+son3 = Number(son3);
+
+let yuzlik1 = Math.floor(son3 / 100);
+let onlik1 = Math.floor((son3 % 100) /10);
+let birlik1 = son3  %10;
+
+let birliklar = ["nol", "bir", "ikki", "uch", "to'rt", "besh", "olti", "yetti", "sakkiz", "to'qqiz"];
+console.log(
+  birliklar[yuzlik1] + " yuz " +
+  birliklar[onlik1] + " o'n " +
+  birliklar[birlik1] + " "
+);
+
