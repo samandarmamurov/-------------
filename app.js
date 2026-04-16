@@ -64,8 +64,19 @@
 
 // 5      kabisa yilini aniqlovchi dastur yozing
 
+const yil = parseInt(prompt("Yilni kiriting:"));
 
-
+if (isNaN(yil)) {
+  console.log("Xato! Raqam kiriting.");
+} else if (yil % 400 === 0) {
+  console.log(yil + " - Kabisa yil");
+} else if (yil % 100 === 0) {
+  console.log(yil + " - Oddiy yil");
+} else if (yil % 4 === 0) {
+  console.log(yil + " - Kabisa yil");
+} else {
+  console.log(yil + " - Oddiy yil");
+}
 
 
 
